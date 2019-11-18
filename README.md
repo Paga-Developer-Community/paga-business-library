@@ -32,10 +32,10 @@ compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.4.1'
 #### Maven
 ```maven
 <dependency>
-		<groupId>org.projectlombok</groupId>
-		<artifactId>lombok</artifactId>
-		<version>1.18.10</version>
-		<scope>provided</scope>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.10</version>
+    <scope>provided</scope>
 </dependency>
 ```
 
