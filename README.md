@@ -16,27 +16,34 @@ Click on the link to get started https://mypaga.readme.io/docs/overview
 - okhttp3 (installation procedures here: https://github.com/square/okhttp)
 
 #### Maven 
+```maven
  <dependency>
     <groupId>com.squareup.okhttp3</groupId>
     <artifactId>okhttp</artifactId>
     <version>3.4.1</version>
   </dependency>
-
+```
 #### Gradle
+```gradle
 compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.4.1'
-
+```
 -lombok(Installation Procedures here: https://github.com/mplushnikov/lombok-intellij-plugin
 
 #### Maven
+```maven
 <dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
 		<version>1.18.10</version>
 		<scope>provided</scope>
 </dependency>
+```
 
 #### Gradle
+```gradle
 compile "org.projectlombok:lombok:1.18.10"
+```
+
 
 ### Paga-Business-Library installation:
 - Download BuisnessClient Library
