@@ -70,18 +70,19 @@ class PagaBusinessClient {
             $data_string = json_encode($data);
         }
 
-        $cmd = "curl --request POST  --url $url \
-                     --header 'content-type: multipart/form-data' \
-                     --header 'hash:$hash' \
-                     --header 'credentials: $this->credential' \
-                     --header 'principal: $this->principal' \
-                     --form 'customer= $data_string;type=application/json' \\";
+        $cmd = "curl --request POST --url $url \
+                    --header 'content-type: multipart/form-data' \
+                    --header  'hash:$hash' \
+                    --header 'credentials: $this->credential' \
+                    --header 'principal: $this->principal' \
+                    --form 'customer=$data_string;type=application/json' \\";
+
 
         if($customerAccountPhoto_path!=null)
-            $cmd .= "  --form 'customerAccountPhoto=@$customerAccountPhoto_path;type=image/jpeg' \\";
+            $cmd .= "--form 'customerAccountPhoto=@$customerAccountPhoto_path;type=image/jpeg' \\";
 
         if($idPhoto_path!=null)
-            $cmd .=   " --form 'customerIdPhoto=@$idPhoto_path;type=image/jpeg' \\";
+            $cmd .=   "--form 'customerIdPhoto=@$idPhoto_path;type=image/jpeg' \\";
 
         if($customerAccountPhoto_path!=null && $idPhoto_path!=null)
             $cmd .=   "--form 'isSubsidiary=true;type=application/json'";
