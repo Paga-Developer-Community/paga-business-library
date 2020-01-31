@@ -241,35 +241,60 @@ class PagaBusinessClient {
 
     /**
      *
-     * @param $reference_number
+     * @param String $reference_number
      *            A unique reference number provided by the business,
      *            identifying the transaction. This reference number will be
      *            preserved on the Paga platform to reconcile the operation
      *            across systems and will be returned in the response
-     * @param $customerPhoneNumber
+     * @param String $customerPhoneNumber
      *            The identifying credential (principal) for the customer (eg.
      *            phone number). This will be checked against the Paga
      *            system to determine if the account belongs to an existing user
-     * @param $firstName
+     * @param String $firstName
      *            The first name of the customer
-     * @param $lastName
+     * @param String $lastName
      *            The last name of the customer
-     * @param $customerIdType
+     * @param String $customerIdType
      *            The Type of Customer Id: ex.DRIVERS_LICENCE, NATIONAL_ID, PASSPORT, RESIDENT_PERMIT,
      *                           STUDENT_ID, EMPLOYER_ID, TAX_CARD, NYSC_ID_CARD, SWORN_AFFIDAVIT,
      *                           VOTERS_CARD, UNION_ID,BVN, CORPORATE_AFFAIRS_COMMISSION
-     * @param $customerIdNumber
+     * @param String $customerIdNumber
      *          The customer Id number of length 10 or 11 characters long
-     * @param $customerIdExpirationDate
+     * @param Date $customerIdExpirationDate
      *           The expiration date of the CustomerId
      * @param $passportPhoto_path
      *           The path to the customers account photo
-     * @param $idPhoto_path
+     * @param String $customerEmail
+     *           Email of the customer
+     * @param Date $customerDateOfBirth
+     *          Birth date of the customer
+     * @param String $customerGender
+     *          gender of the customer(MALE or FEMALE)
+     * @param array customerAddress
+     *          Address of the customer consists of
+     *               {country, region, county, city, localGovernmentArea, streetAddress, postalCode, landmark, freeformAddress{
+     * @param String customerMaritalStatus
+     *              MaritalStatus (Married, Single)
+     * @param String customerPreferredLanguageISOCode
+     *              Language ex us
+     * @param String customerReferredByFirstName
+     *               firstNam eof the referrer
+     * @param String customerReferredByLastName
+     *              LastName of the referrer
+     * @param String customerReferredByPhoneNumber;
+     *              PhoneNumber of the referrer
+     * @param Boolean optinForWalletSavings
+     *              flag to optin for wallet saving
+     * @param String $idPhoto_path
      *          The path to the customers Id photo
      * @return JSONObject
      */
     function registerCustomer($reference_number, $customerPhoneNumber, $firstName, $lastName,
-                              $customerIdType, $customerIdNumber, $customerIdExpirationDate, $passportPhoto_path, $idPhoto_path){
+                              $customerIdType, $customerIdNumber, $customerIdExpirationDate,
+                              $customerEmail, $customerDateOfBirth, $customerGender, $customerAddress,
+                              $customerMaritalStatus, $customerPreferredLanguageISOCode, $customerReferredByFirstName,
+                              $customerReferredByLastName, $customerReferredByPhoneNumber,$optinForWalletSavings,
+                              $passportPhoto_path, $idPhoto_path){
 
 
 
@@ -284,6 +309,16 @@ class PagaBusinessClient {
             'customerIdType'=>$customerIdType,
             'customerIdNumber'=>$customerIdNumber,
             'customerIdExpirationDate'=>$customerIdExpirationDate,
+            'customerEmail'=>$customerEmail,
+            'customerDateOfBirth'=>$customerDateOfBirth,
+            'customerGender'=>$customerGender,
+            'customerAddress'=>$customerAddress,
+            'customerMaritalStatus'=>$customerMaritalStatus,
+            'customerPreferredLanguageISOCode'=>$customerPreferredLanguageISOCode,
+            'customerReferredByFirstName'=>$customerReferredByFirstName,
+            'customerReferredByLastName'=>$customerReferredByLastName,
+            'customerReferredByPhoneNumber'=>$customerReferredByPhoneNumber,
+            'optinForWalletSavings'=>$optinForWalletSavings
 
         );
 
@@ -299,24 +334,25 @@ class PagaBusinessClient {
 
     }
 
+
     /**
      *
-     * @param $reference_number
+     * @param String $reference_number
      *            A unique reference number provided by the business,
      *            identifying the transaction. This reference number will be
      *            preserved on the Paga platform to reconcile the operation
      *            across systems and will be returned in the response
-     * @param $customerPhoneNumber
+     * @param String $customerPhoneNumber
      *            The identifying credential (principal) for the customer (eg.
      *            phone number). This will be checked against the Paga
      *            system to determine if the account belongs to an existing user
-     * @param $customerIdType
+     * @param String $customerIdType
      *           The IdentificationType of customer(eg. EMPLOYER_ID, STUDENT_ID)
-     * @param $customerIdNumber
+     * @param String $customerIdNumber
      *          The Id Number of the customer
-     * @param $customerIdExpirationDate
+     * @param Date $customerIdExpirationDate
      *           Expiration date of the customer iD
-     * @param $idPhoto_path
+     * @param String $idPhoto_path
      *        path of the customer id photo
      *
      * @return JSONObject
@@ -583,7 +619,7 @@ class PagaBusinessClient {
     }
 
     /*
-     *@param  array    $items_arr     A list of the money transfer items, included in this bulk operation are
+     *@param  array    $items_arr   A list of the money transfer items, included in this bulk operation are
          *              referenceNumber unique number identifies the transaction
          *              amount the amount to be transferred
          *              destinationAccount account number of the receiver(ex.receiver phone number)
@@ -740,7 +776,36 @@ class PagaBusinessClient {
 
     }
 
+    /*
+      * @param String $reference_number  A unique reference number provided by the business, identifying the transaction.
+     *                    This reference number will be preserved on the Paga platform to reconcile the operation across systems and will
+     *                    be returned in the response
+     * @param String $customerIdentifier
+     *        The value that identifies the user(ex. Phonenumber, email)
+     *
+     * @return string JSON Object identifies the user
+     */
 
+    public function validateCustomer($reference_number, $customerIdentifier){
+
+        $server = ($this->test) ? $this->test_server : $this->live_server;
+        $url = $server."/paga-webservices/business-rest/secured/validateCustomer";
+        $credential = null;
+        $data = array(
+            'referenceNumber'=>$reference_number,
+            'customerIdentifier'=>$customerIdentifier,
+
+        );
+
+        $hash_string = $reference_number.$customerIdentifier.$this->apiKey;
+
+        $hash = hash('sha512', $hash_string);
+
+        $curl = $this->buildRequest($url, $hash, $data);
+        $response = curl_exec($curl);
+        $this->checkCURL($curl);
+        return $response;
+    }
 
     /**
      * @param $curl
