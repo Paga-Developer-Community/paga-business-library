@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf8dd91d-3f71-4514-a3cf-cbd2b39964df" name="Default Changelist" comment="" />
+    <list default="true" id="cf8dd91d-3f71-4514-a3cf-cbd2b39964df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/GetMerchantAccountDetailRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/Details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/GetMerchantAccountDetailResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bd8d80e244af61ab478e422d0032db11e5c0c83" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bd8d80e244af61ab478e422d0032db11e5c0c83" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73212fe0fdf4183459998a69bee6e0a9ccc00a1f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73212fe0fdf4183459998a69bee6e0a9ccc00a1f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/813b58d5c6d0d893278ba74526b7ad5cd7bdafb2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/813b58d5c6d0d893278ba74526b7ad5cd7bdafb2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81ce4222572d7ed9f0da5b7f348fb7abf597cd85" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81ce4222572d7ed9f0da5b7f348fb7abf597cd85" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/839e074da8ccc18b4d49d1f156ffe3fed3c45287" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/839e074da8ccc18b4d49d1f156ffe3fed3c45287" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f17b1980bca3df0a2573df5dc0c2c8fab8007084" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f17b1980bca3df0a2573df5dc0c2c8fab8007084" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/constant/Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/constant/Definitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/business-client-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/business-client-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/constant/Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/constant/Definitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +32,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="178">
+              <caret line="917" column="34" lean-forward="true" selection-start-line="917" selection-start-column="34" selection-end-line="917" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#44688#44689#0" expanded="true" />
+                <element signature="e#44774#44775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/GetMerchantAccountDetailResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,10 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/MoneyTransferBulkRequest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/Details.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="13" column="54" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="299">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,10 +71,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/MoneyTransferItem.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/AccountBalanceRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="17" selection-start-line="15" selection-end-line="17" />
+            <state relative-caret-position="92">
+              <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/GetMerchantAccountDetailRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,41 +94,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
+            <state relative-caret-position="709">
               <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/constant/Definitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/AirtimePurchaseRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/GetOperationStatusRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="274">
+              <caret line="31" column="96" selection-start-line="31" selection-start-column="96" selection-end-line="31" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -94,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/ApiConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,15 +169,12 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/AirtimePurchaseResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/GetBanksResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/GetMerchantResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/GetMerchantServicesResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/GetOperationStatusResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/MerchantPaymentResponse.java" />
@@ -205,8 +221,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/ApiConnection.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/AirtimePurchaseRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/GetMerchantAccountDetailRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/GetMerchantAccountDetailResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/Details.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/constant/Definitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java" />
       </list>
     </option>
   </component>
@@ -256,9 +275,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="967" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -286,8 +304,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,10 +364,18 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="request" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="software-dev_business-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software-dev_business-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,19 +388,19 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.paga.business.rest.client.response" />
+      <recent name="com.paga.business.rest.client.request" />
+      <recent name="com.paga.business.rest.client" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.paga.business.rest.client" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.paga.business.rest.client.request" />
-      <recent name="com.paga.business.rest.client.response" />
-      <recent name="com.paga.business.rest.client" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -498,18 +522,20 @@
       <workItem from="1575884494630" duration="447000" />
       <workItem from="1578923456853" duration="540000" />
       <workItem from="1579000052684" duration="1079000" />
-      <workItem from="1580723295206" duration="4506000" />
+      <workItem from="1580723295206" duration="5158000" />
+      <workItem from="1583744312288" duration="509000" />
+      <workItem from="1588602709278" duration="4930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161835000" />
+    <option name="totallyTimeSpent" value="167926000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497191" visible="true" weight="0.27955273" />
-      <window_info id="Structure" order="1" sideWeight="0.502809" side_tool="true" visible="true" weight="0.27955273" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49369368" visible="true" weight="0.2857143" />
+      <window_info id="Structure" order="1" sideWeight="0.5063063" side_tool="true" visible="true" weight="0.2857143" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -523,7 +549,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32997987" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" visible="true" weight="0.28370222" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" visible="true" weight="0.42427385" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50106496" side_tool="true" weight="0.33299798" />
       <window_info anchor="bottom" id="SonarLint" order="11" weight="0.32997987" />
@@ -587,27 +613,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/GetOperationStatusResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/MoneyTransferBulkResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/MoneyTransferResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="139" column="58" selection-start-line="139" selection-start-column="58" selection-end-line="139" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/RegisterCustomerResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
@@ -832,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/AccountBalanceRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/TransactionHistoryRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -866,10 +864,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/AirtimePurchaseRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="184">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -877,6 +878,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/ApiConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -903,30 +914,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/AirtimePurchaseRequest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="709">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/AccountBalanceRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/GetMerchantAccountDetailRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/ApiConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/GetMerchantAccountDetailResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/Details.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="299">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -935,8 +960,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/constant/Definitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="274">
+          <caret line="31" column="96" selection-start-line="31" selection-start-column="96" selection-end-line="31" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="917" column="34" lean-forward="true" selection-start-line="917" selection-start-column="34" selection-end-line="917" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#44688#44689#0" expanded="true" />
+            <element signature="e#44774#44775#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

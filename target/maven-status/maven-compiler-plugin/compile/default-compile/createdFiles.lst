@@ -9,10 +9,12 @@ com/paga/business/rest/client/response/GetBanksResponse$Banks.class
 com/paga/business/rest/client/response/RecentTransactionHistoryResponse.class
 com/paga/business/rest/client/response/GetMerchantsResponseItem.class
 com/paga/business/rest/client/response/OnboardingUpdate.class
+com/paga/business/rest/client/response/GetMerchantAccountDetailResponse.class
 com/paga/business/rest/client/response/GetBanksResponse.class
 com/paga/business/rest/client/core/ApiConnection.class
 com/paga/business/rest/client/constant/Definitions.class
 com/paga/business/rest/client/request/RegisterCustomerRequest$RegisterCustomerRequestBuilder.class
+com/paga/business/rest/client/request/GetMerchantAccountDetailRequest.class
 com/paga/business/rest/client/request/LegalEntity.class
 com/paga/business/rest/client/response/TransactionHistoryResponse.class
 com/paga/business/rest/client/request/MerchantInfo$MerchantInfoBuilder.class
@@ -25,9 +27,11 @@ com/paga/business/rest/client/response/DepositToBankResponse.class
 com/paga/business/rest/client/request/GetMerchantServicesRequest$GetMerchantServicesRequestBuilder.class
 com/paga/business/rest/client/request/ValidateDepositToBankRequest.class
 com/paga/business/rest/client/response/GetMerchantResponse.class
+com/paga/business/rest/client/response/GetMerchantAccountDetailResponse$GetMerchantAccountDetailResponseBuilder.class
 com/paga/business/rest/client/request/AccountBalanceRequest$AccountBalanceRequestBuilder.class
 com/paga/business/rest/client/request/RecentTransactionHistoryRequest.class
 com/paga/business/rest/client/request/AirtimePurchaseRequest$AirtimePurchaseRequestBuilder.class
+com/paga/business/rest/client/request/GetMerchantAccountDetailRequest$GetMerchantAccountDetailRequestBuilder.class
 com/paga/business/rest/client/request/GetKYCRestrictedMoneyTransferRequest$GetKYCRestrictedMoneyTransferRequestBuilder.class
 com/paga/business/rest/client/response/GetMerchantServicesResponseItem.class
 com/paga/business/rest/client/request/OnboardMerchantRequest$OnboardMerchantRequestBuilder.class
@@ -57,6 +61,7 @@ com/paga/business/rest/client/request/RegisterCustomerRequest.class
 com/paga/business/rest/client/request/TransactionHistoryRequest$TransactionHistoryRequestBuilder.class
 com/paga/business/rest/client/request/GetBanksRequest.class
 com/paga/business/rest/client/core/BusinessClient.class
+com/paga/business/rest/client/response/Details.class
 com/paga/business/rest/client/request/MoneyTransferRequest.class
 com/paga/business/rest/client/request/DepositToBankRequest$DepositToBankRequestBuilder.class
 com/paga/business/rest/client/core/BusinessClient$Builder.class
@@ -69,6 +74,7 @@ com/paga/business/rest/client/request/GetMobileOperatorsRequest.class
 com/paga/business/rest/client/request/GetBanksRequest$GetBanksRequestBuilder.class
 com/paga/business/rest/client/response/ValidateDepositToBankResponse.class
 com/paga/business/rest/client/request/MoneyTransferItem$MoneyTransferItemBuilder.class
+com/paga/business/rest/client/response/Details$DetailsBuilder.class
 com/paga/business/rest/client/response/AirtimePurchaseResponse.class
 com/paga/business/rest/client/response/MoneyTransferBulkResponseItem.class
 com/paga/business/rest/client/request/MerchantPaymentRequest$MerchantPaymentRequestBuilder.class

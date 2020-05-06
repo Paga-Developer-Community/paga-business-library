@@ -29,6 +29,7 @@ public class Definitions {
     public static final String AIRTIME_PURCHASE = "secured/airtimePurchase";
     public static final String ONBOARD_MERCHANTS = "secured/onboardMerchant";
     public static final String VALIDATE_CUSTOMER = "secured/validateCustomer";
+    public static final String GET_MERCHANT_ACCOUNT_DETAILS = "secured/getMerchantAccountDetails";
 
 
 

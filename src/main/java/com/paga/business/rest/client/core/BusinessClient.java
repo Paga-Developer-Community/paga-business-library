@@ -878,6 +878,34 @@ public class BusinessClient {
         return gson.fromJson(String.valueOf(response), ValidateCustomerResponse.class);
     }
 
+
+    public GetMerchantAccountDetailResponse getMerchantAccountDetails(GetMerchantAccountDetailRequest getMerchantAccountDetailRequest){
+        Gson gson = new Gson();
+        JSONObject obj = new JSONObject();
+        try{
+            obj.put(REFERENCE_NUMBER,getMerchantAccountDetailRequest.getReferenceNumber());
+            obj.put("merchantAccount",getMerchantAccountDetailRequest.getMerchantAccount());
+            obj.put("merchantReferenceNumber",getMerchantAccountDetailRequest.getMerchantReferenceNumber());
+            obj.put("merchantServiceProductCode",getMerchantAccountDetailRequest.getMerchantServiceProductCode());
+
+        }catch (JSONException e){
+            e.printStackTrace();
+        }
+
+        StringBuilder sBuilder = new StringBuilder();
+
+        sBuilder.append(REFERENCE_NUMBER);
+        sBuilder.append(getMerchantAccountDetailRequest.getMerchantAccount());
+        sBuilder.append(getMerchantAccountDetailRequest.getMerchantReferenceNumber());
+        sBuilder.append(getMerchantAccountDetailRequest.getMerchantServiceProductCode());
+        sBuilder.append(this.apiKey);
+        RequestBody body = RequestBody.create(JSON, obj.toString());
+        JSONObject response = getApiResponse(body, sBuilder,
+                Definitions.getBaseUrl(test) + Definitions.GET_MERCHANT_ACCOUNT_DETAILS);
+
+        return gson.fromJson(String.valueOf(response), GetMerchantAccountDetailResponse.class);
+    }
+
     private JSONObject getApiResponse(RequestBody body, StringBuilder sBuilder, String requestPath) {
         this.apiConnection = new ApiConnection();
         return this.apiConnection.connectAndPost(body, sBuilder, requestPath, this.principal, this.credential);

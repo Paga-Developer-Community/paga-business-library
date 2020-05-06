@@ -2,11 +2,13 @@
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/DepositToBankResponse.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/ValidateCustomerResponse.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/core/ApiConnection.java
+/Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/GetMerchantAccountDetailResponse.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/request/MoneyTransferRequest.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/RecentTransactionHistoryResponseItem.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/constant/Definitions.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/GetMerchantServicesResponse.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/request/Integration.java
+/Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/Details.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/request/LegalEntityRepresentative.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/RecentTransactionHistoryResponse.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/request/MoneyTransferBulkRequest.java
@@ -48,5 +50,6 @@
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/AccountBalanceResponse.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/GetBanksResponse.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/request/RecentTransactionHistoryRequest.java
+/Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/request/GetMerchantAccountDetailRequest.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/response/GetOperationStatusResponse.java
 /Users/bowolabi/IdeaProjects/software-dev_business-client/src/main/java/com/paga/business/rest/client/request/GetMobileOperatorsRequest.java
