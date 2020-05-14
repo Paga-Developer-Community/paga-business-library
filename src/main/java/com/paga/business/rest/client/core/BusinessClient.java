@@ -389,6 +389,7 @@ public class BusinessClient {
         RequestBody body = RequestBody.create(JSON, obj.toString());
         JSONObject response = getApiResponse(body, sBuilder,
                 Definitions.getBaseUrl(this.test) + Definitions.MERCHANT_PAYMENT);
+
         return gson.fromJson(String.valueOf(response), MerchantPaymentResponse.class);
     }
 

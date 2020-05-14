@@ -1,5 +1,9 @@
 package com.paga.business.rest.client.response;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+import java.util.Map;
+
 public class MerchantPaymentResponse {
 
     private String referenceNumber;
@@ -10,6 +14,8 @@ public class MerchantPaymentResponse {
     private Double fee;
     private int responseCode;
     private String message;
+
+    private Map<String, Object> additionalProperties;
 
     public MerchantPaymentResponse() {
     }
@@ -89,6 +95,14 @@ public class MerchantPaymentResponse {
     public void setMessage(String message) {
         this.message = message;
     }
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    public Map<String, Object> getAdditionalProperties() {
+        return additionalProperties;
+    }
+
+    public void setAdditionalProperties(Map<String, Object> additionalProperties) {
+        this.additionalProperties = additionalProperties;
+    }
 
     @Override
     public String toString() {
@@ -101,6 +115,7 @@ public class MerchantPaymentResponse {
                 ", fee=" + fee +
                 ", responseCode=" + responseCode +
                 ", message='" + message + '\'' +
+                ", additionalProperties=" + additionalProperties +
                 '}';
     }
 }
