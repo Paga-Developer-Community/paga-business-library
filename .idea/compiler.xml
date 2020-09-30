@@ -7,8 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="business-client" />
         <module name="software-dev_business-client" />
+        <module name="business-client" />
+        <module name="paga-business-library" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

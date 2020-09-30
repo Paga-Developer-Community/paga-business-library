@@ -34,12 +34,54 @@ public class BusinessClient {
         this.test = test;
     }
 
+
     /**
      *
      * @param registerCustomerRequest
      * @return
      */
-    public RegisterCustomerResponse registerCustomer(RegisterCustomerRequest registerCustomerRequest) {
+
+    public RegisterCustomerResponse registerCustomer(RegisterCustomerRequest registerCustomerRequest){
+        Gson gson = new Gson();
+        DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+        String dob = df.format(registerCustomerRequest.getCustomerDateOfBirth());
+
+
+        JSONObject obj = new JSONObject();
+        try {
+            obj.put(REFERENCE_NUMBER, registerCustomerRequest.getReferenceNumber());
+            obj.put("customerPhoneNumber",registerCustomerRequest.getCustomerPhoneNumber());
+            obj.put("customerEmail",registerCustomerRequest.getCustomerEmail());
+            obj.put("customerFirstName", registerCustomerRequest.getCustomerFirstName());
+            obj.put("customerLastName", registerCustomerRequest.getCustomerLastName());
+            obj.put("customerDateOfBirth", dob);
+
+            System.out.println("customer request object :: " + obj);
+        }catch (JSONException e1){
+            e1.printStackTrace();
+        }
+
+        StringBuilder sBuilder = new StringBuilder();
+        sBuilder.append(registerCustomerRequest.getReferenceNumber());
+        sBuilder.append(registerCustomerRequest.getCustomerPhoneNumber());
+        sBuilder.append(registerCustomerRequest.getCustomerFirstName());
+        sBuilder.append(registerCustomerRequest.getCustomerLastName());
+        sBuilder.append(this.apiKey);
+
+        RequestBody body = RequestBody.create(JSON, obj.toString());
+        JSONObject response = getApiResponse(body, sBuilder,
+                Definitions.getBaseUrl(this.test) + Definitions.REGISTER_CUSTOMER);
+
+        System.out.println("response register customer:: " + response);
+        return gson.fromJson(String.valueOf(response), RegisterCustomerResponse.class);
+    }
+
+    /**
+     *
+     * @param registerCustomerRequest
+     * @return
+     */
+    public RegisterCustomerResponse registerCustomerWithKYC(RegisterCustomerRequest registerCustomerRequest) {
 
         Gson gson = new Gson();
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
@@ -92,7 +134,7 @@ public class BusinessClient {
                 addFormDataPart("customer", "customer", RequestBody.create(JSON, obj.toString())).build();
 
         JSONObject response = getApiResponse(requestBody, sBuilder,
-                Definitions.getBaseUrl(this.test) + Definitions.REGISTER_CUSTOMER);
+                Definitions.getBaseUrl(this.test) + Definitions.REGISTER_CUSTOMER_WITH_KYC);
         System.out.println("response register customer:: " + response);
         return gson.fromJson(String.valueOf(response), RegisterCustomerResponse.class);
     }
