@@ -11,6 +11,7 @@ public class Definitions {
 
 
     public static final String REGISTER_CUSTOMER = "secured/registerCustomer";
+    public static final String REGISTER_CUSTOMER_WITH_KYC= "secured/registerCustomerWithKYC";
     public static final String REGISTER_CUSTOMER_ACCOUNT_PHOTO = "secured/registerCustomerAccountPhoto";
     public static final String REGISTER_CUSTOMER_IDENTIFICATION = "secured/registerCustomerIdentification";
     public static final String MONEY_TRANSFER = "secured/moneyTransfer";
