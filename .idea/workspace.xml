@@ -10,15 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf8dd91d-3f71-4514-a3cf-cbd2b39964df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/paga_business_library_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/constant/Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/constant/Definitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/constant/Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/constant/Definitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +69,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -224,12 +217,24 @@
       <workItem from="1589040464920" duration="1110000" />
       <workItem from="1589447310026" duration="1999000" />
       <workItem from="1601389735435" duration="7482000" />
-      <workItem from="1601451508423" duration="1492000" />
+      <workItem from="1601451508423" duration="2179000" />
     </task>
+    <task id="LOCAL-00001" summary="Added: Register customer without KYC">
+      <created>1601457674070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601457674070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added: Register customer without KYC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: Register customer without KYC" />
   </component>
   <component name="WindowStateProjectService">
     <state x="896" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1601409873551">
@@ -248,6 +253,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="1402" y="406" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601405108585" />
+    <state x="484" y="101" width="1014" height="911" key="CommitChangelistDialog2" timestamp="1601457673960">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="484" y="101" width="1014" height="911" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1601457673960" />
     <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1601405493199">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
