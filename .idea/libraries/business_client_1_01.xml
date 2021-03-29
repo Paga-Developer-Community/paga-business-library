@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="business-client-1.01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/business-client-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

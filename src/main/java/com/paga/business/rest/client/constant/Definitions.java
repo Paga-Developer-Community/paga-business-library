@@ -1,8 +1,6 @@
 package com.paga.business.rest.client.constant;
 
-/**
- * @author Iyanu Adelekan on 17/07/2016.
- */
+
 public class Definitions {
 
     private static final String TEST_BASE_API_ENDPOINT = "https://beta.mypaga.com/paga-webservices/business-rest/"; //https://qa1.
@@ -31,7 +29,8 @@ public class Definitions {
     public static final String ONBOARD_MERCHANTS = "secured/onboardMerchant";
     public static final String VALIDATE_CUSTOMER = "secured/validateCustomer";
     public static final String GET_MERCHANT_ACCOUNT_DETAILS = "secured/getMerchantAccountDetails";
-
+    public static final String REGISTER_PERSISTENT_PAYMENT_ACCOUNT = "secured/registerPersistentPaymentAccount";
+    public static final String GET_PERSISTENT_PAYMENT_ACCOUNT_ACTIVITY = "secured/getPersistentPaymentAccountActivity";
 
 
 
