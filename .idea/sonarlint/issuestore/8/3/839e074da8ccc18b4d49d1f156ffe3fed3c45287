@@ -1,14 +1,0 @@
-
-[
-squid:S106 "9Replace this use of System.out or System.err by a logger.(ΏΫόÿÿÿÿ8»ίΨΡΫ-
-isquid:S2259+"FA "NullPointerException" could be thrown; "response" is nullable here.(¶›θϋÿÿÿÿ8όÿξή-
-V
-squid:S1065"9Replace this use of System.out or System.err by a logger.(ύ„λ–8όÿξή-
-Fsquid:S1148("#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8όÿξή-
-[
-squid:S106*"9Replace this use of System.out or System.err by a logger.(§ίΚ­ϊÿÿÿÿ8όÿξή-
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(’Ύÿk8όÿξή-
-Xsquid:S1143."5Remove this return statement from this finally block.(±Υÿϊÿÿÿÿ8»ίΨΡΫ-
-[
-squid:S106$"9Replace this use of System.out or System.err by a logger.(Λ—―™ωÿÿÿÿ8όÿξή-

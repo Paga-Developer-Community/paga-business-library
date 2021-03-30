@@ -36,6 +36,83 @@ public class BusinessClient {
 
 
     /**
+     * An operation for business to create Persistent Payment Account Numbers that can be assigned to their customers
+     * for payment collection.
+     * @param registerPersistentPaymentAccountRequest
+     * @return RegisterPersistentPaymentAccountResponse
+     *
+     */
+    public RegisterPersistentPaymentAccountResponse registerPersistentPaymentAccount(RegisterPersistentPaymentAccountRequest
+                                                                                             registerPersistentPaymentAccountRequest){
+        Gson gson = new Gson();
+        JSONObject requestParams = new JSONObject();
+
+        try {
+            requestParams.put(REFERENCE_NUMBER, registerPersistentPaymentAccountRequest.getReferenceNumber());
+            requestParams.put("phoneNumber", registerPersistentPaymentAccountRequest.getPhoneNumber());
+            requestParams.put("firstName", registerPersistentPaymentAccountRequest.getFirstName());
+            requestParams.put("lastName", registerPersistentPaymentAccountRequest.getLastName());
+            requestParams.put("accountName", registerPersistentPaymentAccountRequest.getAccountName());
+            requestParams.put("financialIdentificationNumber", registerPersistentPaymentAccountRequest.getFinancialIdentificationNumber());
+            requestParams.put("accountReference", registerPersistentPaymentAccountRequest.getAccountReference());
+            requestParams.put("email", registerPersistentPaymentAccountRequest.getEmail());
+
+            System.out.println("Persistent Account request object :: " + requestParams);
+        }catch (JSONException jsonException){
+            jsonException.printStackTrace();
+        }
+
+        StringBuilder hashParams = new StringBuilder();
+        hashParams.append(registerPersistentPaymentAccountRequest.getReferenceNumber());
+        hashParams.append(registerPersistentPaymentAccountRequest.getPhoneNumber());
+        hashParams.append(this.apiKey);
+
+        RequestBody requestBody = RequestBody.create(JSON, requestParams.toString());
+        JSONObject response = getApiResponse(requestBody, hashParams,
+                Definitions.getBaseUrl(this.test) + Definitions.REGISTER_PERSISTENT_PAYMENT_ACCOUNT);
+
+        System.out.println("response :: " + response);
+        return gson.fromJson(String.valueOf(response), RegisterPersistentPaymentAccountResponse.class);
+    }
+
+
+    /**
+     * An operation that can be used by Organizations to check the status of payments made to a Persistent Payment Account.
+     * @param persistentPaymentAccountActivityRequest
+     * @return PersistentPaymentAccountActivityResponse
+     */
+    public PersistentPaymentAccountActivityResponse getPersistentPaymentAccountActivity(PersistentPaymentAccountActivityRequest
+                                                                                        persistentPaymentAccountActivityRequest){
+        Gson gson = new Gson();
+        JSONObject requestParams = new JSONObject();
+
+        try {
+            requestParams.put(REFERENCE_NUMBER, persistentPaymentAccountActivityRequest.getReferenceNumber());
+            requestParams.put("accountNumber", persistentPaymentAccountActivityRequest.getAccountNumber());
+            requestParams.put("getLatestSingleActivity", persistentPaymentAccountActivityRequest.getGetLatestSingleActivity());
+            requestParams.put("accountReference", persistentPaymentAccountActivityRequest.getAccountReference());
+            requestParams.put("startDate", persistentPaymentAccountActivityRequest.getStartDate());
+            requestParams.put("endDate", persistentPaymentAccountActivityRequest.getEndDate());
+
+            System.out.println("Persistent Account Activity request object :: " + requestParams);
+        }catch (JSONException jsonException){
+            jsonException.printStackTrace();
+        }
+
+        StringBuilder hashParams = new StringBuilder();
+        hashParams.append(persistentPaymentAccountActivityRequest.getReferenceNumber());
+        hashParams.append(this.apiKey);
+
+        RequestBody requestBody = RequestBody.create(JSON, requestParams.toString());
+        JSONObject response = getApiResponse(requestBody, hashParams,
+                Definitions.getBaseUrl(this.test) + Definitions.GET_PERSISTENT_PAYMENT_ACCOUNT_ACTIVITY);
+
+        System.out.println("Response :: " + response);
+        return gson.fromJson(String.valueOf(response), PersistentPaymentAccountActivityResponse.class);
+    }
+
+
+    /**
      *
      * @param registerCustomerRequest
      * @return

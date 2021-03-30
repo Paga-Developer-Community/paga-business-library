@@ -1,16 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="paga-business-library-1.0:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf8dd91d-3f71-4514-a3cf-cbd2b39964df" name="Default Changelist" comment="">
+    <list default="true" id="6edcfcd1-8c2d-416e-b827-a0f9096bcc82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/business_client_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/business_client_1_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/business_client_1_012.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/business_client_1_02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paga-business-library.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/PersistentPaymentAccountActivityRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/request/RegisterPersistentPaymentAccountRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/PersistentPaymentAccountActivityResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/PersistentPaymentAccountActivityResponseItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/response/RegisterPersistentPaymentAccountResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/paga_business_library_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09954a8636fd8fa33225ba1c30a152a36bf74d2f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/121cc0186991578d1426ceac4837884479eb79af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147e49ea801d044b26cc12c75dd1f431320e6390" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bd8d80e244af61ab478e422d0032db11e5c0c83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/211a4ad0261a6cd2a77a88bc533e4a5be342099f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24b0e2429965b9463c4a4f959ee1ef55f4d1b1d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f7234f9a9dae212f69707c3f51ba59761c70ee2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/417e1203dfcca908b66ea2e0e9db200d0e6f32ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46cd7e81b246347dcab21d556646015d8f879206" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/485f28783e23d66a539ae23f9e6a54976969e918" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48f6f04a9d28ee368daf811ce3c463c733bc9165" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5435ca54417a8288e6bd1fb2ace25feae8d8dbcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/657db1e276f9adc70fe884dd12bc1229f0bf0e89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/663f0e06f7a42972208cdde152519ff2ec13fff0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b736ba29dc30b014b079b729165f5415c1012e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73212fe0fdf4183459998a69bee6e0a9ccc00a1f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c9698297fbcbf4d1754c308545337d30e4f11a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7537fe78aae71fc9c60e99b384dd49c58336257d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e1e138a6ab69def83181dbf88bda8bd3c872a3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ecb3ecde40ffb2fc3fac2699737081f4f49efe8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ef15358a43bf49ee08e129708785cfb9605f045" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fa3fb50b25ece62f0954b275fd653f93ef59101" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/813b58d5c6d0d893278ba74526b7ad5cd7bdafb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81ce4222572d7ed9f0da5b7f348fb7abf597cd85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/839e074da8ccc18b4d49d1f156ffe3fed3c45287" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86e261e807dcdf3c6dddd76d030eee78472e4ae3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f4aec7847df2591a9bb139129c63291fc4da682" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/988d9741fbb67cecc5ea6e5380d5d1dbe6bfb3bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9da564ceaf32bf9b2e149873344bf2893fd1e81e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a550ca24d9098f43d33a80b2f9e512acc733fb10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aae8d0f8e8bf20836f7ab0ab9e3461eee3df9950" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/acdee2524e21bf84298410f3ef713aed8dc6fead" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b25aa2ed35cb0d6537a4c66b8ad8389b09efb458" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7389e2974ecbe412b9314be0f2c68e3f4f931cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cba75714547ab9d7867d13ac4d64efdd1e4e3b8a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e343f0c25ab8d7ddf50975baf643e7b1c3ea41fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e82d3fcd212a8bddf3602cf708675cfbb1212123" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebe5e486b8579c321130c68a5f655f4463f09af1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f17b1980bca3df0a2573df5dc0c2c8fab8007084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8b1d279fcc0f3a881c4dae5d6f136f367fdfc08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/constant/Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/constant/Definitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/business-client-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/constant/Definitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/ApiConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/core/BusinessClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/AccountBalanceRequest$AccountBalanceRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/AccountBalanceRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/AdditionalParameters$AdditionalParametersBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/AdditionalParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/AirtimePurchaseRequest$AirtimePurchaseRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/AirtimePurchaseRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/DepositToBankRequest$DepositToBankRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/DepositToBankRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetBanksRequest$GetBanksRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetBanksRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetKYCRestrictedMoneyTransferRequest$GetKYCRestrictedMoneyTransferRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetKYCRestrictedMoneyTransferRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetMerchantAccountDetailRequest$GetMerchantAccountDetailRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetMerchantAccountDetailRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetMerchantServicesRequest$GetMerchantServicesRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetMerchantServicesRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetMerchantsRequest$GetMerchantsRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetMerchantsRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetMobileOperatorsRequest$GetMobileOperatorsRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetMobileOperatorsRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetOperationStatusRequest$GetOperationStatusRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/GetOperationStatusRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/Integration$IntegrationBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/Integration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/LegalEntity$LegalEntityBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/LegalEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/LegalEntityRepresentative$LegalEntityRepresentativeBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/LegalEntityRepresentative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MerchantInfo$MerchantInfoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MerchantInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MerchantPaymentRequest$MerchantPaymentRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MerchantPaymentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MoneyTransferBulkRequest$MoneyTransferBulkRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MoneyTransferBulkRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MoneyTransferItem$MoneyTransferItemBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MoneyTransferItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MoneyTransferRequest$MoneyTransferRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/MoneyTransferRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/OnboardMerchantRequest$OnboardMerchantRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/OnboardMerchantRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/RecentTransactionHistoryRequest$RecentTransactionHistoryRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/RecentTransactionHistoryRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/RegisterCustomerRequest$Address$AddressBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/RegisterCustomerRequest$Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/RegisterCustomerRequest$RegisterCustomerRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/RegisterCustomerRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/TransactionHistoryRequest$TransactionHistoryRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/TransactionHistoryRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/ValidateDepositToBankRequest$ValidateDepositToBankRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/request/ValidateDepositToBankRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/AccountBalanceResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/AirtimePurchaseResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/DepositToBankResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/Details$DetailsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/Details.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetBanksResponse$Banks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetBanksResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetKYCRestrictedMoneyTransferResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetMerchantAccountDetailResponse$GetMerchantAccountDetailResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetMerchantAccountDetailResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetMerchantResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetMerchantServicesResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetMerchantServicesResponseItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetMerchantsResponseItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetMobileOperatorsResponse$MobileOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetMobileOperatorsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/GetOperationStatusResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/MerchantPaymentResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/MoneyTransferBulkResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/MoneyTransferBulkResponseItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/MoneyTransferResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/OnboardingCredentials.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/OnboardingResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/OnboardingUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/RecentTransactionHistoryResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/RecentTransactionHistoryResponseItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/RegisterCustomerResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/TransactionHistoryResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/TransactionHistoryResponseItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/ValidateCustomerResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/response/ValidateDepositToBankResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paga/business/rest/client/util/UtilService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +200,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -35,243 +209,134 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1iBnDYCmZLbACMhjUCIrjP1ffp1" />
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Java 8Java language level migration aidsJava</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1qCgUqW871HDkN2PBGf47nYTdbq" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572945890724" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/business-client-1.0.jar" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.paga.business.rest.client.response" />
-      <recent name="com.paga.business.rest.client.request" />
-      <recent name="com.paga.business.rest.client" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.paga.business.rest.client" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/paga/business/rest/client" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Twisted Trial">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.paga.business.rest.client.test" />
+      <module name="paga-business-library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.paga.business.rest.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cf8dd91d-3f71-4514-a3cf-cbd2b39964df" name="Default Changelist" comment="" />
-      <created>1566217320525</created>
+      <changelist id="6edcfcd1-8c2d-416e-b827-a0f9096bcc82" name="Default Changelist" comment="" />
+      <created>1616589004470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566217320525</updated>
-      <workItem from="1566217324548" duration="5538000" />
-      <workItem from="1567001012190" duration="3085000" />
-      <workItem from="1567112881330" duration="1043000" />
-      <workItem from="1567758547074" duration="37000" />
-      <workItem from="1568110268829" duration="43379000" />
-      <workItem from="1568979517018" duration="279000" />
-      <workItem from="1569841322650" duration="14881000" />
-      <workItem from="1570112034061" duration="11180000" />
-      <workItem from="1570435982685" duration="344000" />
-      <workItem from="1570436401917" duration="17009000" />
-      <workItem from="1570627592518" duration="9745000" />
-      <workItem from="1571044961491" duration="32243000" />
-      <workItem from="1571651985485" duration="30000" />
-      <workItem from="1571814981662" duration="2126000" />
-      <workItem from="1572268673508" duration="3731000" />
-      <workItem from="1572946236254" duration="543000" />
-      <workItem from="1572949475636" duration="582000" />
-      <workItem from="1573037892988" duration="1101000" />
-      <workItem from="1573571026220" duration="22000" />
-      <workItem from="1573571381865" duration="22000" />
-      <workItem from="1573572987169" duration="976000" />
-      <workItem from="1573631861538" duration="1216000" />
-      <workItem from="1573641014199" duration="1185000" />
-      <workItem from="1573724912124" duration="482000" />
-      <workItem from="1573740318081" duration="550000" />
-      <workItem from="1573744911994" duration="525000" />
-      <workItem from="1573801665449" duration="18000" />
-      <workItem from="1574061372055" duration="1824000" />
-      <workItem from="1574870519697" duration="659000" />
-      <workItem from="1574929856286" duration="908000" />
-      <workItem from="1575884494630" duration="447000" />
-      <workItem from="1578923456853" duration="540000" />
-      <workItem from="1579000052684" duration="1079000" />
-      <workItem from="1580723295206" duration="5158000" />
-      <workItem from="1583744312288" duration="509000" />
-      <workItem from="1588602709278" duration="5861000" />
-      <workItem from="1589040464920" duration="1110000" />
-      <workItem from="1589447310026" duration="1999000" />
-      <workItem from="1601389735435" duration="7482000" />
-      <workItem from="1601451508423" duration="2179000" />
+      <updated>1616589004470</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added: Register customer without KYC">
-      <created>1601457674070</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1601457674070</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added: Register customer without KYC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: Register customer without KYC" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="896" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1601409873551">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="698" y="355" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1616593167200">
+      <screen x="0" y="25" width="1920" height="1114" />
     </state>
-    <state x="896" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601409873551" />
-    <state x="786" y="345" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601406170963">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="698" y="355" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1920.1114@0.25.1920.1114" timestamp="1616593167200" />
+    <state x="424" y="241" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616589271632">
+      <screen x="0" y="25" width="1920" height="1114" />
     </state>
-    <state x="786" y="345" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601406170963" />
-    <state x="2617" y="0" width="1213" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601390146510">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="424" y="241" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1114@0.25.1920.1114" timestamp="1616589271632" />
+    <state x="773" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1616609487844">
+      <screen x="0" y="25" width="1920" height="1114" />
     </state>
-    <state x="2617" y="0" width="1213" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601390146510" />
-    <state x="1402" y="406" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601405108585">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="773" y="270" key="#com.intellij.ide.util.MemberChooser/0.25.1920.1114@0.25.1920.1114" timestamp="1616609487844" />
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom" timestamp="1616758149284">
+      <screen x="0" y="25" width="1920" height="1113" />
     </state>
-    <state x="1402" y="406" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601405108585" />
-    <state x="484" y="101" width="1014" height="911" key="CommitChangelistDialog2" timestamp="1601457673960">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1878" height="199" key="GridCell.Tab.0.bottom/0.25.1920.1113@0.25.1920.1113" timestamp="1616758149284" />
+    <state width="1878" height="307" key="GridCell.Tab.0.bottom/0.25.1920.1114@0.25.1920.1114" timestamp="1616667763754" />
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.25.1920.1115@0.25.1920.1115" timestamp="1616688922272" />
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.25.1920.1116@0.25.1920.1116" timestamp="1616671717177" />
+    <state width="1878" height="199" key="GridCell.Tab.0.center" timestamp="1616758149283">
+      <screen x="0" y="25" width="1920" height="1113" />
     </state>
-    <state x="484" y="101" width="1014" height="911" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1601457673960" />
-    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1601405493199">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1878" height="199" key="GridCell.Tab.0.center/0.25.1920.1113@0.25.1920.1113" timestamp="1616758149283" />
+    <state width="1878" height="307" key="GridCell.Tab.0.center/0.25.1920.1114@0.25.1920.1114" timestamp="1616667763753" />
+    <state width="1878" height="200" key="GridCell.Tab.0.center/0.25.1920.1115@0.25.1920.1115" timestamp="1616688922271" />
+    <state width="1878" height="200" key="GridCell.Tab.0.center/0.25.1920.1116@0.25.1920.1116" timestamp="1616671717176" />
+    <state width="1878" height="199" key="GridCell.Tab.0.left" timestamp="1616758149283">
+      <screen x="0" y="25" width="1920" height="1113" />
     </state>
-    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601405493199" />
-    <state x="1472" y="311" width="448" height="491" key="FileChooserDialogImpl" timestamp="1601405797310">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1878" height="199" key="GridCell.Tab.0.left/0.25.1920.1113@0.25.1920.1113" timestamp="1616758149283" />
+    <state width="1878" height="307" key="GridCell.Tab.0.left/0.25.1920.1114@0.25.1920.1114" timestamp="1616667763752" />
+    <state width="1878" height="200" key="GridCell.Tab.0.left/0.25.1920.1115@0.25.1920.1115" timestamp="1616688922270" />
+    <state width="1878" height="200" key="GridCell.Tab.0.left/0.25.1920.1116@0.25.1920.1116" timestamp="1616671717176" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right" timestamp="1616758149283">
+      <screen x="0" y="25" width="1920" height="1113" />
     </state>
-    <state x="1472" y="311" width="448" height="491" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601405797310" />
-    <state x="546" y="124" width="1024" height="852" key="SettingsEditor" timestamp="1601409674230">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1878" height="199" key="GridCell.Tab.0.right/0.25.1920.1113@0.25.1920.1113" timestamp="1616758149283" />
+    <state width="1878" height="307" key="GridCell.Tab.0.right/0.25.1920.1114@0.25.1920.1114" timestamp="1616667763753" />
+    <state width="1878" height="200" key="GridCell.Tab.0.right/0.25.1920.1115@0.25.1920.1115" timestamp="1616688922272" />
+    <state width="1878" height="200" key="GridCell.Tab.0.right/0.25.1920.1116@0.25.1920.1116" timestamp="1616671717177" />
+    <state x="84" y="87" width="1303" height="843" key="SettingsEditor" timestamp="1616705476230">
+      <screen x="0" y="25" width="1920" height="1110" />
     </state>
-    <state x="546" y="124" width="1024" height="852" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601409674230" />
-    <state x="687" y="292" width="679" height="522" key="find.popup" timestamp="1601451559638">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="84" y="87" key="SettingsEditor/0.25.1920.1110@0.25.1920.1110" timestamp="1616705476230" />
+    <state x="84" y="87" width="1346" height="801" key="SettingsEditor/0.25.1920.1114@0.25.1920.1114" timestamp="1616662961260" />
+    <state x="84" y="87" width="1303" height="843" key="SettingsEditor/0.25.1920.1116@0.25.1920.1116" timestamp="1616674149982" />
+    <state x="661" y="337" width="608" height="490" key="find.popup" timestamp="1616694509535">
+      <screen x="0" y="25" width="1920" height="1115" />
     </state>
-    <state x="687" y="292" width="679" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1601451559638" />
+    <state x="661" y="337" width="608" height="490" key="find.popup/0.25.1920.1115@0.25.1920.1115" timestamp="1616694509535" />
+    <state x="366" y="242" key="new project wizard" timestamp="1616680449374">
+      <screen x="0" y="25" width="1920" height="1115" />
+    </state>
+    <state x="366" y="242" key="new project wizard/0.25.1920.1115@0.25.1920.1115" timestamp="1616680449374" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/paga/business/rest/client/core/BusinessClient.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
